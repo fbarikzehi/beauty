@@ -1,0 +1,23 @@
+
+.main_menu a.label{
+    width: 100%!important;
+    padding: 4%!important;
+    font-size: 13px!important;
+}
+.bottom_menu{
+    position: absolute;
+}
+.main_content{
+    height:auto;
+    min-height:80%;
+}
+.quick_bar{
+    margin-top:-100px;
+    padding:0 10px!important;
+    bottom: 20px!important;
+    position: absolute!important;
+}
+.ui.grid > * {
+    padding-left: 0.5rem!important;
+    padding-right: 0.5rem!important;
+}

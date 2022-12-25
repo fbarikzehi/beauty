@@ -1,6 +1,36 @@
-body{
-    overflow: hidden!important;
+body {
+  overflow: hidden !important;
 }
-.job-title{
-    margin-right: 5px;
+.job-title {
+  margin-right: 5px;
+}
+.ui.menu {
+    border-radius: 0;
+  }
+
+.ui.vertical.segment {
+  border: none !important;
+}
+.ui.modal > .header {
+  display: flex;
+}
+.ui.modal > .header > .window_action {
+  flex: 1 1 auto;
+  text-align: left;
+  width: 50%;
+  font-size: 13px;
+}
+.ui.modal > .header > .window_title {
+  flex: 1 1 auto;
+  text-align: right;
+  width: 50%;
+  font-size: 18px;
+}
+.ui.fullscreen.modal {
+  width: 100% !important;
+  height: calc(100vh - 50px) !important;
+  margin: 0 !important;
+}
+.ui.fullscreen.modal > .content {
+  min-height: calc(85vh) !important;
 }
